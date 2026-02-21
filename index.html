@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophisticated Dark Mode Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <form class="input-section card">
+        <h2>Create New Flashcard</h2>
+        <div class="input-group">
+            <label for="questionInput">Question</label>
+            <textarea name="question" id="questionInput" placeholder="Enter flashcard question"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="answerInput">Answer</label>
+            <textarea name="answer" id="answerInput" placeholder="Enter flashcard answer"></textarea>
+        </div>
+        <button class="add-card btn-primary">Add Flashcard</button>
+    </form>
+
+    <div class="flashcard-grid">
+        
+        <!-- Example Flashcard 1 -->
+        <!-- <div class="flashcard">
+            <button class="delete-btn">×</button>
+            <div class="card-question">
+                <h3>What is the capital of France?</h3>
+            </div>
+            <div class="card-answer">
+                <p>Paris</p>
+            </div>
+        </div> -->
+        <!-- Example Flashcard 2 -->
+        <!-- <div class="flashcard">
+            <button class="delete-btn">×</button>
+            <div class="card-question">
+                <h3>Explain the concept of 'Sophisticated Dark Mode'.</h3>
+            </div>
+            <div class="card-answer">
+                <p>Sophisticated Dark Mode avoids pure black and pure white, using a rich palette of deep grays, blues, or greens for backgrounds and surfaces. Accent colors are often muted or electric to provide contrast without being harsh. Typography is crucial for readability, and subtle elevation and shadows enhance depth.</p>
+            </div>
+        </div> -->
+
+        <!-- Example Flashcard 3 (is-revealed for demonstration of answer state) -->
+        <!-- <div class="flashcard">
+            <button class="delete-btn">×</button>
+            <div class="card-question">
+                <h3>What is the primary accent color in this theme?</h3>
+            </div>
+            <div class="card-answer">
+                <p>Electric Indigo (#818cf8).</p>
+            </div>
+        </div> -->
+
+        <!-- Example Flashcard 4  -->
+        <!-- <div class="flashcard">
+            <button class="delete-btn">×</button>
+            <div class="card-question">
+                <h3>Why avoid pure black and pure white in dark themes?</h3>
+            </div>
+            <div class="card-answer">
+                <p>Pure black can cause eye strain due to extreme contrast with white text, leading to 'halation' or 'vibrating' text. Pure white elements on dark backgrounds can also be jarring. Nuanced dark and light tones offer a softer, more comfortable visual experience.</p>
+            </div>
+        </div>  -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
