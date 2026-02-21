@@ -8,7 +8,7 @@ let flashCards = [];
 
 function init() {
   const data = JSON.parse(localStorage.getItem('flashCards'))
-  console.log(data)
+  // console.log(data)
 
   if (!data) return
 
